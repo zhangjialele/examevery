@@ -1,0 +1,117 @@
+html,body{
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f3f3fe;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size: .12rem;
+}
+header{
+  height: .44rem;
+  line-height: .44rem;
+  background: #ffffff;
+  margin-bottom: .07rem;
+  ul{
+    display: flex;
+    text-align: center;
+    li{
+      flex: 1;
+      color: #b2b2b2;
+      span{
+        display: inline-block;
+      }
+    }
+    .local{
+      color: #5070f5;
+      span{
+        border-bottom: 1px solid #3d61f4;
+      }
+    }
+  }
+}
+section{
+  flex: 1;
+  background: #ffffff;
+  .content{
+    padding: .1rem .2rem;
+    padding-bottom: 0;
+    .wrap{
+      width: 100%;
+      height: .96rem;
+      border: 1px solid #dedede;
+      border-radius: 5px;
+      .top{
+        background: #fd6060;
+        height: .55rem;
+        position: relative;
+        padding-left: .5rem;
+        line-height: .55rem;
+        color: #ffffff;
+        img{
+          position: absolute;
+          width: .16rem;
+          height: .2rem;
+          top: .1rem;
+          left: .16rem;
+        }
+        b{
+          font-size: .38rem;
+        }
+        span{
+          line-height: .2rem;
+          position: absolute;
+          right: .1rem;
+          bottom: .1rem;
+          font-size: .2rem;
+        }
+      }
+      .bottom{
+        p{
+          font-size: .1rem;
+          color: #c6c6c6;
+          line-height: .2rem;
+          i{
+            padding-left: .18rem;
+            padding-right: .05rem;
+          }
+        }
+        p:first-child{
+          color: #49c090;
+        }
+      }
+    }
+  }
+  .blue{
+    .wrap{
+      .top{
+        background: #5686f4;
+        .zhe{
+          position: absolute;
+          width: .16rem;
+          height: .2rem;
+          top: .1rem;
+          left: .16rem;
+        }
+      }
+    }
+  }
+  .plum{
+    .wrap{
+      .top{
+        background: #965df5;
+      }
+    }
+  }
+  .green{
+    .wrap{
+      .top{
+        background: #4bc670;
+      }
+    }
+  }
+}
